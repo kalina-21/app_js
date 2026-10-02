@@ -4,22 +4,16 @@ let y = 10;
 let sum = z + y;
 document.getElementById("sum").textContent = sum;
 
-
 let calc = y % z;
 document.getElementById("calc").textContent = calc;
-
 
 let num = 5;
 num++;
 document.getElementById("num").textContent = num;
 
-
-// logical operator
 let bool = false || false;
 document.getElementById("bool").textContent = bool;
 
-
-// bitwise operator
 let bitresult = 7 & 6;
 document.getElementById("andResult").textContent = bitresult;
 
